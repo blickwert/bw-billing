@@ -1,34 +1,34 @@
 # Blickwert Billing
 
 ## Beschreibung
-Blickwert Billing ist ein WordPress-Plugin zur Verwaltung von Rechnungen, Angeboten, Kunden und Vorlagen. Es ermšglicht die einfache Verwaltung und Erstellung von PDF-Dokumenten fŸr Rechnungen und Angebote.
+Blickwert Billing ist ein WordPress-Plugin zur Verwaltung von Rechnungen, Angeboten, Kunden und Vorlagen. Es ermÃœglicht die einfache Verwaltung und Erstellung von PDF-Dokumenten fÄr Rechnungen und Angebote.
 
 ## Features
 - Verwaltung von Rechnungen und Angeboten
 - Kundenverwaltung
-- Vorlagenverwaltung fŸr PDF-Ausgaben
-- Mšglichkeit zur Erstellung und zum Download von PDF-Dokumenten
+- Vorlagenverwaltung fÄr PDF-Ausgaben
+- MÃœglichkeit zur Erstellung und zum Download von PDF-Dokumenten
 
 ## Voraussetzungen
-- WordPress 5.0 oder hšher
+- WordPress 5.0 oder hÃœher
 - ACF Pro (Advanced Custom Fields Pro) Plugin
 
 ## Installation
 1. Lade das Plugin herunter und entpacke es.
 2. Lade den gesamten Ordner `bw-billing` in das Verzeichnis `/wp-content/plugins/` deiner WordPress-Installation.
-3. Aktiviere das Plugin Ÿber das MenŸ `Plugins` in WordPress.
+3. Aktiviere das Plugin Äber das MenÄ `Plugins` in WordPress.
 
 ## Verzeichnisstruktur
 - `bw-billing.php`: Hauptplugin-Datei
-- `includes/`: Verzeichnis fŸr Plugin-Klassen
+- `includes/`: Verzeichnis fÄr Plugin-Klassen
   - `class-bw-billing-init.php`: Registrierung der Custom Post Types und Taxonomien
-  - `class-bw-chat-frontend.php`: (Platzhalter fŸr zukŸnftige Frontend-FunktionalitŠten)
+  - `class-bw-chat-frontend.php`: (Platzhalter fÄr zukÄnftige Frontend-FunktionalitÅten)
   - `class-bw-billing-plugin-page.php`: Erstellung der Plugin-Admin-Seite und Subpages
   - `class-bw-billing-pdf.php`: PDF-Erstellung und Download
 - `dompdf/`: DOMPDF-Bibliothek zur Erstellung von PDF-Dokumenten
 
 ## Verwendung
-Nach der Aktivierung des Plugins finden Sie im WordPress-Dashboard ein neues MenŸ namens "Billing". Unter diesem MenŸ kšnnen Sie Rechnungen, Angebote, Kunden und Vorlagen verwalten. Zudem kšnnen Sie Vorlagen verwenden, um das Layout der generierten PDF-Dokumente anzupassen.
+Nach der Aktivierung des Plugins finden Sie im WordPress-Dashboard ein neues MenÄ namens "Billing". Unter diesem MenÄ kÃœnnen Sie Rechnungen, Angebote, Kunden und Vorlagen verwalten. Zudem kÃœnnen Sie Vorlagen verwenden, um das Layout der generierten PDF-Dokumente anzupassen.
 
 ## Lizenz
 Dieses Plugin ist unter der GPL2-Lizenz lizenziert.
